@@ -1,8 +1,8 @@
 body
 {
-  background:      ;/* couleur du fond */
+  background: orange  ;/* couleur du fond */
   font-family: "Arial", sans-serif; /*définition de la police d'écriture*/
-  color: ;      /*définition de la ouleur de la police*/
+  color:181818 ;      /*définition de la ouleur de la police*/
 }
 
 header
@@ -17,17 +17,17 @@ header
 
 article
 {
-    margin-left: 16px;
+    margin-left: 1rem;
 }
 
 aside
 {
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 
 footer
 {
-  padding: 16px;
+  padding: 1rem;
 
 }
 
@@ -44,13 +44,13 @@ footer
 .logo img
 {
     width: auto;
-    height: 60px;
+    height: 3.75rem;
 }
 
 header h1, article h1, nav a
 {
-    font-size: 24px;
-    margin: 16px;
+    font-size: 1.5rem;
+    margin: 1rem;
 }
 
 nav ul
@@ -61,26 +61,26 @@ nav ul
 
 nav li
 {
-    margin-right: 10px;
+    margin-right: .625rem;
 }
 
 nav a
 {
-    font-size: 20px;
-    color: #2f2d29;
-    padding-bottom: 3px;
+    font-size: 1.25rem;
+    color:red;
+    padding-bottom: 0.1875rem;
     text-decoration: none;
 }
 
 nav a:hover
 {
-    color: #beb8b8;
+    color:#beb8b8;
 }
 
 #banniere_image
 {
   width : auto;
-  height: 240px;
+  height: 15rem;
 
 }
 
@@ -91,50 +91,50 @@ article,  aside
 
 article
 {
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 article,aside p
 {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 aside
 {
     background-color: ; /*définition de la couleur du fond du aside*/
-    box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 5px;
-    padding: 10px;
+    box-shadow: 0rem 0.125rem 0.3125rem #1c1a19;
+    border-radius: 0.3125rem;
+    padding: 0.625rem;
     color: ; /*couleur de la police du aside*/
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 aside h1
 {
 
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
-.liens
+a
 {
-    color: ; /*définition de la couleur des liens*/
+    color: purple; /*définition de la couleur des liens*/
 }
 
-.liens:hover
+a:hover
 {
-  color: ; /*définition de la couleur des liens lors d'un survol de la souris*/
+  color:red ; /*définition de la couleur des liens lors d'un survol de la souris*/
 }
 
 #fleche_bulle
 {
     position: absolute;
-    top: 100px;
-    left: -12px;
+    top: 6.25rem;
+    left: -0.75rem;
 }
 
 aside img
 {
-    margin-right: 5px;
+    margin-right: 0.3125rem;
 }
 
 
@@ -145,17 +145,17 @@ aside img
 
 footer p, footer ul
 {
-    font-size: 13px;
+    font-size: 0.8125rem;
 }
 
 footer h1
 {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 #des_photos img
 {
-    border: 1px solid #181818;
+    border: 0.0625 solid #181818;
     margin-right: 20px;
 }
 
@@ -174,5 +174,6 @@ footer h1
 #sites_interessants a
 {
   text-decoration: none ;
-  color: #760001 ;
+  color: red ;
 }
+16
