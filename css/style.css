@@ -4,25 +4,41 @@ body
   font-family: "Arial", sans-serif; /*définition de la police d'écriture*/
   color:181818 ;      /*définition de la ouleur de la police*/
 }
+.grille1
+{
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-gap: 1rem;
+  grid-template-areas:
+  "h h h"
+  "b b b"
+  "ar ar as"
+  "f f f";
+}
+
 
 header
 {
-
+grid-area: h;
+display: flex;
+justify-content: space-around;
 }
 
 .banniere
 {
-
+  grid-area: b;
 }
 
 article
 {
-    margin-left: 1rem;
+  grid-area: ar;
+  margin-left: 1rem;
 }
 
 aside
 {
-    margin-right: 1rem;
+  grid-area: as;
+  margin-right: 1rem;
 }
 
 footer
@@ -61,7 +77,7 @@ nav ul
 
 nav li
 {
-    margin-right: .625rem;
+    margin-right: 0.625rem;
 }
 
 nav a
@@ -155,8 +171,8 @@ footer h1
 
 #des_photos img
 {
-    border: 0.0625 solid #181818;
-    margin-right: 20px;
+    border: 0.0625rem solid #181818;
+    margin-right: 1.25rem;
 }
 
 #listes_sites
@@ -168,7 +184,7 @@ footer h1
 #sites_interessants ul
 {
     list-style-image: url('images/ico_liensexterne.png');
-    padding-left: 24px;
+    padding-left: 1.5rem;
 }
 
 #sites_interessants a
@@ -176,4 +192,3 @@ footer h1
   text-decoration: none ;
   color: red ;
 }
-16
