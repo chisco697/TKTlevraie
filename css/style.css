@@ -1,6 +1,6 @@
 body
 {
-  background: beige  ;/* couleur du fond */
+  background: white  ;/* couleur du fond */
   font-family: "Arial", sans-serif; /*définition de la police d'écriture*/
   color:181818 ;      /*définition de la ouleur de la police*/
 }
@@ -38,7 +38,7 @@ article
 aside
 {
   grid-area: as;
-  margin-right: 1rem;
+  margin-right: 15rem;
 }
 
 footer
@@ -83,7 +83,7 @@ nav li
 nav a
 {
     font-size: 1.25rem;
-    color:red;
+    color:black;
     padding-bottom: 0.1875rem;
     text-decoration: none;
 }
@@ -121,7 +121,7 @@ aside
     box-shadow: 0rem 0.125rem 0.3125rem #1c1a19;
     border-radius: 0.3125rem;
     padding: 0.625rem;
-    color: ; /*couleur de la police du aside*/
+    color: Silver ; /*couleur de la police du aside*/
     font-size: 0.875rem;
 }
 
