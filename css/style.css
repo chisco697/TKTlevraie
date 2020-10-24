@@ -19,7 +19,7 @@ body
 .logo
 {
   display: grid;
-  grid-template-columns: 3fr 5fr 3fr;
+  grid-template-columns: 5fr 5fr 5fr;
   grid-gap: 1rem;
   grid-template-areas:
   "h h h"
@@ -29,9 +29,10 @@ body
 }
 header
 {
-grid-area: h;
+grid-area:h;
 display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
 }
 
 .banniere
@@ -112,7 +113,7 @@ nav a:hover
 
 article,  aside
 {
-
+color: white
 }
 
 article
