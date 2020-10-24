@@ -7,7 +7,7 @@ body
 .grille1
 {
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-columns: 3fr 1fr 2fr;
   grid-gap: 1rem;
   grid-template-areas:
   "h h h"
@@ -16,7 +16,17 @@ body
   "f f f";
 }
 
-
+.logo
+{
+  display: grid;
+  grid-template-columns: 3fr 5fr 3fr;
+  grid-gap: 1rem;
+  grid-template-areas:
+  "h h h"
+  "b b b"
+  "ar ar as"
+  "f f f";
+}
 header
 {
 grid-area: h;
