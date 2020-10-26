@@ -1,8 +1,8 @@
 body
 {
   background: beige  ;/* couleur du fond */
-  font-family: "Arial", sans-serif; /*définition de la police d'écriture*/
-  color:181818 ;      /*définition de la ouleur de la police*/
+  font-family: "Arial","helvetica" sans-serif; /*définition de la police d'écriture*/
+  color:#181818 ;      /*définition de la couleur de la police*/
 }
 .grille1
 {
@@ -19,7 +19,7 @@ body
 
 header
 {
-grid-area: h;
+grid-area: h ;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
@@ -27,25 +27,25 @@ flex-wrap: wrap;
 
 .banniere
 {
-  grid-area: b;
+  grid-area: b b b;
 }
 
 article
 {
   grid-area: ar;
-  margin-left: 1rem;
+  margin-left: 3rem;
+  color: black;
 }
 
 aside
 {
   grid-area: as;
-  margin-right: 1rem;
+  margin-right: 10rem;
 }
 
 footer
 {
-  padding: 1rem;
-
+  padding: 3rem;
 }
 
 #titre_principal h1
@@ -67,8 +67,8 @@ align-items: center
 
 header h1, article h1, nav a
 {
-    font-size: 1.5rem;
-    margin: 1rem;
+    font-size: 1.8rem;
+    margin: 2rem;
 }
 
 nav ul
@@ -79,7 +79,7 @@ nav ul
 
 nav li
 {
-    margin-right: 0.625rem;
+    margin-right: 8rem;
 }
 
 nav a
@@ -98,7 +98,7 @@ nav a:hover
 #banniere_image
 {
   width : auto;
-  height: 15rem;
+  height: 40rem;
 
 }
 
