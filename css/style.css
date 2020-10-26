@@ -1,6 +1,6 @@
 body
 {
-  background: orange  ;/* couleur du fond */
+  background: beige  ;/* couleur du fond */
   font-family: "Arial", sans-serif; /*définition de la police d'écriture*/
   color:181818 ;      /*définition de la ouleur de la police*/
 }
@@ -21,7 +21,8 @@ header
 {
 grid-area: h;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
+flex-wrap: wrap;
 }
 
 .banniere
@@ -54,7 +55,8 @@ footer
 
 .logo
 {
-
+display: flex;
+align-items: center
 }
 
 .logo img
@@ -83,7 +85,7 @@ nav li
 nav a
 {
     font-size: 1.25rem;
-    color:red;
+    color: black ;
     padding-bottom: 0.1875rem;
     text-decoration: none;
 }
@@ -121,7 +123,7 @@ aside
     box-shadow: 0rem 0.125rem 0.3125rem #1c1a19;
     border-radius: 0.3125rem;
     padding: 0.625rem;
-    color: ; /*couleur de la police du aside*/
+    color: black ; /*couleur de la police du aside*/
     font-size: 0.875rem;
 }
 
@@ -133,7 +135,7 @@ aside h1
 
 a
 {
-    color: purple; /*définition de la couleur des liens*/
+    color: silver ; /*définition de la couleur des liens*/
 }
 
 a:hover
