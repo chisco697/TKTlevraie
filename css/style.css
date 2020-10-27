@@ -20,7 +20,7 @@ body
 header
 {
 grid-area: h ;
-display: flex;
+display: flex ;
 justify-content: space-between;
 flex-wrap: wrap;
 }
@@ -68,7 +68,7 @@ align-items: center
 header h1, article h1, nav a
 {
     font-size: 1.8rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 nav ul
@@ -79,7 +79,7 @@ nav ul
 
 nav li
 {
-    margin-right: 8rem;
+    margin-right: 14rem;
 }
 
 nav a
@@ -163,7 +163,7 @@ aside img
 
 footer p, footer ul
 {
-    font-size: 0.8125rem;
+    font-size: 1.2rem;
 }
 
 footer h1
@@ -197,5 +197,5 @@ footer h1
 
 #sites_interessants a:hover
 {
-  color:red ;
+  color: red ;
 }
