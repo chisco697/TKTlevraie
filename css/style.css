@@ -40,7 +40,7 @@ article
 aside
 {
   grid-area: as;
-  margin-right: 10rem;
+  margin-right: 3rem;
 }
 
 footer
@@ -114,7 +114,7 @@ article
 
 article,aside p
 {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 aside
@@ -189,8 +189,13 @@ footer h1
     padding-left: 1.5rem;
 }
 
-#sites_interessants a
+#sites_interessants  a
 {
   text-decoration: none ;
-  color: red ;
+  color: Silver ;
+}
+
+#sites_interessants a:hover
+{
+  color:red ;
 }
