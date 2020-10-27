@@ -1,0 +1,39 @@
+/*------------------------------------*\
+		LOCAL SCREENS
+\*------------------------------------*/
+
+
+.section-compare .compare-container .ipad-mini figure { background-image:url("/fr/ipad/shared/compare/images/overview/compare_ipad_mini__fo3g5w569h6y_large.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .section-compare .compare-container .ipad-mini figure { background-image:url("/fr/ipad/shared/compare/images/overview/compare_ipad_mini__fo3g5w569h6y_large_2x.png"); }
+}
+@media only screen and (max-width: 735px) {
+  .section-compare .compare-container .ipad-mini figure { background-image:url("/fr/ipad/shared/compare/images/overview/compare_ipad_mini__fo3g5w569h6y_small.png"); }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-compare .compare-container .ipad-mini figure { background-image:url("/fr/ipad/shared/compare/images/overview/compare_ipad_mini__fo3g5w569h6y_small_2x.png"); }
+}
+
+
+
+
+
+/*------------------------------------*\
+		END LOCAL SCREENS
+\*------------------------------------*/
+
+
+
+
+/*------------------------------------*\
+		LOCAL FIXES
+\*------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------*\
+		END LOCAL FIXES
+\*------------------------------------*/
