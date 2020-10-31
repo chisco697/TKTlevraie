@@ -19,8 +19,8 @@ body
 
 header
 {
-grid-area: h;
-display: flex;
+grid-area: h ;
+display: flex ;
 justify-content: space-between;
 flex-wrap: wrap;
 }
@@ -67,7 +67,11 @@ align-items: center;
 
 header h1, article h1, nav a
 {
+<<<<<<< HEAD
     font-size: 1.5rem;
+=======
+    font-size: 1.8rem;
+>>>>>>> c429236343901dde5bf9e0e3209ecef10730b0a2
     margin: 1rem;
 }
 
@@ -79,7 +83,11 @@ nav ul
 
 nav li
 {
+<<<<<<< HEAD
     margin-right: 0.625rem;
+=======
+    margin-right: 14rem;
+>>>>>>> c429236343901dde5bf9e0e3209ecef10730b0a2
 }
 
 nav a
@@ -114,7 +122,7 @@ article
 
 article,aside p
 {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 aside
@@ -163,7 +171,7 @@ aside img
 
 footer p, footer ul
 {
-    font-size: 0.8125rem;
+    font-size: 1.2rem;
 }
 
 footer h1
@@ -189,8 +197,13 @@ footer h1
     padding-left: 1.5rem;
 }
 
-#sites_interessants a
+#sites_interessants  a
 {
   text-decoration: none ;
+  color: Silver ;
+}
+
+#sites_interessants a:hover
+{
   color: red ;
 }
