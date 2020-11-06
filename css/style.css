@@ -1,8 +1,8 @@
 body
 {
   background: white  ;/* couleur du fond */
-  font-family: "Arial", sans-serif; /*définition de la police d'écriture*/
-  color:181818 ;      /*définition de la ouleur de la police*/
+  font-family: "Arial","helvetica" sans-serif; /*définition de la police d'écriture*/
+  color:#181818 ;      /*définition de la couleur de la police*/
 }
 .grille1
 {
@@ -27,25 +27,25 @@ flex-wrap: wrap;
 
 .banniere
 {
-  grid-area: b;
+  grid-area: b b b;
 }
 
 article
 {
   grid-area: ar;
   margin-left: 1rem;
+  color: black;
 }
 
 aside
 {
   grid-area: as;
-  margin-right: 15rem;
+  margin-right: 3rem;
 }
 
 footer
 {
-  padding: 1rem;
-
+  padding: 3rem;
 }
 
 #titre_principal h1
@@ -56,7 +56,7 @@ footer
 .logo
 {
 display: flex;
-align-items: center;
+align-items: center
 }
 
 .logo img
@@ -67,11 +67,7 @@ align-items: center;
 
 header h1, article h1, nav a
 {
-<<<<<<< HEAD
-    font-size: 1.5rem;
-=======
     font-size: 1.8rem;
->>>>>>> c429236343901dde5bf9e0e3209ecef10730b0a2
     margin: 1rem;
 }
 
@@ -83,17 +79,13 @@ nav ul
 
 nav li
 {
-<<<<<<< HEAD
-    margin-right: 0.625rem;
-=======
     margin-right: 14rem;
->>>>>>> c429236343901dde5bf9e0e3209ecef10730b0a2
 }
 
 nav a
 {
     font-size: 1.25rem;
-    color:black;
+    color: black ;
     padding-bottom: 0.1875rem;
     text-decoration: none;
 }
@@ -106,7 +98,7 @@ nav a:hover
 #banniere_image
 {
   width : auto;
-  height: 15rem;
+  height: 40rem;
 
 }
 
@@ -131,7 +123,7 @@ aside
     box-shadow: 0rem 0.125rem 0.3125rem #1c1a19;
     border-radius: 0.3125rem;
     padding: 0.625rem;
-    color: Silver ; /*couleur de la police du aside*/
+    color: black ; /*couleur de la police du aside*/
     font-size: 0.875rem;
 }
 
@@ -143,7 +135,7 @@ aside h1
 
 a
 {
-    color: purple; /*définition de la couleur des liens*/
+    color: silver ; /*définition de la couleur des liens*/
 }
 
 a:hover
