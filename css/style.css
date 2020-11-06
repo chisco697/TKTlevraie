@@ -1,6 +1,6 @@
 body
 {
-  background: beige  ;/* couleur du fond */
+  background: beige ;/* couleur du fond */
   font-family: "Arial","helvetica" sans-serif; /*définition de la police d'écriture*/
   color:#181818 ;      /*définition de la couleur de la police*/
 }
@@ -192,7 +192,7 @@ footer h1
 #sites_interessants  a
 {
   text-decoration: none ;
-  color: Silver ;
+  color: silver ;
 }
 
 #sites_interessants a:hover
