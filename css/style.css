@@ -11,9 +11,8 @@ body
   grid-gap: 1rem;
   grid-template-areas:
   "h h h"
-  "b b b"
-  "ar ar as"
-  "f f f";
+  "b b f"
+  "ar ar as";
 }
 
 
@@ -45,6 +44,7 @@ aside
 
 footer
 {
+  grid-area: f;
   padding: 3rem;
 }
 
@@ -74,12 +74,14 @@ header h1, article h1, nav a
 nav ul
 {
     list-style-type: none;
-
+    display: flex;
+    justify-content: space-around;
 }
 
 nav li
 {
     margin-right: 14rem;
+
 }
 
 nav a
