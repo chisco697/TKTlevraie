@@ -67,11 +67,7 @@ align-items: center;
 
 header h1, article h1, nav a
 {
-<<<<<<< HEAD
     font-size: 1.5rem;
-=======
-    font-size: 1.8rem;
->>>>>>> c429236343901dde5bf9e0e3209ecef10730b0a2
     margin: 1rem;
 }
 
@@ -83,11 +79,7 @@ nav ul
 
 nav li
 {
-<<<<<<< HEAD
     margin-right: 0.625rem;
-=======
-    margin-right: 14rem;
->>>>>>> c429236343901dde5bf9e0e3209ecef10730b0a2
 }
 
 nav a
